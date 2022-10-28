@@ -3,6 +3,8 @@ import React from "react";
 import Header from './header/Header';
 import Body from "./Body";
 
+import './styles.scss';
+
 const App = () => (
     <div>
         <Header/>
