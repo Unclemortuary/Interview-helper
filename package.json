@@ -4,7 +4,9 @@
   "description": "An React app to help me prepare to my FE Interview",
   "main": "index.js",
   "scripts": {
+    "build:fakeApi": "npm run build -- --env fakeApi=true",
     "build": "webpack --mode development",
+    "watch:fakeApi": "npm run watch -- --env fakeApi=true",
     "watch": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
