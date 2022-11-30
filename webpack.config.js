@@ -19,7 +19,8 @@ module.exports = function(env, argv) {
       })
     ],
     devServer: {
-      port: 3030, // you can change the port
+      port: 3030,
+      watchFiles: 'src/*'
     },
     devtool: 'eval-source-map',
     module: {

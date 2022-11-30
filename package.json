@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build:fakeApi": "npm run build -- --env fakeApi=true",
-    "build": "webpack --mode development",
     "watch:fakeApi": "npm run watch -- --env fakeApi=true",
+    "serve:fakeApi": "npm run serve -- --env fakeApi=true",
+    "build": "webpack --mode development",
     "watch": "webpack --mode development --watch",
+    "serve": "webpack serve --mode development --open-app-name 'google chrome' --live-reload --no-hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
