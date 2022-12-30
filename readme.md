@@ -12,6 +12,7 @@ The app also has a progress bar which allows you to have an idea of your progres
 - React.JS
 - Webpack
 - Node.JS (in progress)
+- MaterialUI (in progress)
 
 ## Flow
 
@@ -34,3 +35,10 @@ After you can pick a question and save the state of completeness of this questio
 ## Ideas to implement/consider
 - Quiz mode - get number of random questions and ensure your knowledge
 - random button - add random button at the end of questions grid view
+
+## Material UI components that I will need
+- [Tabs](https://mui.com/material-ui/react-tabs/) for displaying topics navigation
+- [Menu](https://mui.com/material-ui/react-menu/) for accessing actions on question card
+- [Date Picker](https://mui.com/x/react-date-pickers/getting-started/) for picking a target date
+- [Progress](https://mui.com/joy-ui/react-linear-progress/#main-content) for showing the progress at right top corner
+- [Card](https://mui.com/joy-ui/react-card/) for question card

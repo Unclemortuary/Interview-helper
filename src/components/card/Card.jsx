@@ -1,8 +1,11 @@
 import React from "react";
+import { Card as MUICard } from "@mui/joy";
 
 const Card = ({ cardName }) => (
     <section>
-        <h2>{cardName}</h2>
+        <MUICard>
+            <h2>{cardName}</h2>
+        </MUICard>
     </section>
 );
 

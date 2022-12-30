@@ -5,4 +5,3 @@ import App from '../components/App';
 
 const root = createRoot(document.getElementById("content"));
 root.render(<App/>);
-

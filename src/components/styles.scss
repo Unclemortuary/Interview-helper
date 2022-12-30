@@ -1,5 +1,14 @@
 @import 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,100&display=swap';
 
+#content {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
 .text-light {
     font-weight: 200;
 }
@@ -8,4 +17,17 @@
     font-weight: 100;
     font-style: italic;
     font-size: 1.5rem;
+}
+
+.header {
+    padding: 5px;
+    padding-bottom: 0;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr 1fr;
+    background-color: white;
+}
+
+main {
+    height: 70%;
 }

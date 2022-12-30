@@ -8,11 +8,11 @@ import Progress from "../progress/Progress";
 
 const Header = () => (
         <div className="header">
-            <h1>Interview Logo Button</h1>
+            <h1 className="text-thin-italic">FE (logo)</h1>
             <>
                 <Navigation items={['HTTP','CSS','JavaScript','React.JS']}></Navigation>
                 <TargetDate></TargetDate>
-                <Progress progress={{ total:6, done: 2 }}></Progress>
+                <Progress progress={{ total: 6, done: 2 }}></Progress>
             </>
         </div>
 );

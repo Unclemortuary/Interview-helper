@@ -6,16 +6,16 @@ import { DATA_URL } from '../modules/resources';
 const Body = ({ appReady }) => {
     const [questionsData, setQuestionsData] = useState({});
 
-    useEffect(() => {
-        if (appReady) {
-            fetch(DATA_URL)
-                .then(data => data.json()
-                    .then(jsonData => setQuestionsData(jsonData))
-                );
-        }
-    }, [appReady]);
+    // useEffect(() => {
+    //     if (appReady) {
+    //         fetch(DATA_URL)
+    //             .then(data => data.json()
+    //                 .then(jsonData => setQuestionsData(jsonData))
+    //             );
+    //     }
+    // }, [appReady]);
 
-    console.log(questionsData);
+    // console.log(questionsData);
 
     return (
         <main>

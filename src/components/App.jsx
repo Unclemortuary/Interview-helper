@@ -16,10 +16,10 @@ const App = () => {
     }, []);
 
     return (
-        <div>
+        <>
             <Header/>
             <Body appReady={appReady}></Body>
-        </div>
+        </>
     );
 };
 
