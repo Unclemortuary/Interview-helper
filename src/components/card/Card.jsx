@@ -41,9 +41,9 @@ const Card = ({ cardName }) => {
                         }
                     }}
                 >
-                    <MenuItem onClick={handleClose}>Profile</MenuItem>
-                    <MenuItem onClick={handleClose}>My account</MenuItem>
-                    <MenuItem onClick={handleClose}>Logout</MenuItem>
+                    <MenuItem sx={{ fontFamily: 'unset' }} onClick={handleClose}>Profile</MenuItem>
+                    <MenuItem sx={{ fontFamily: 'unset' }} onClick={handleClose}>My account</MenuItem>
+                    <MenuItem sx={{ fontFamily: 'unset' }} onClick={handleClose}>Logout</MenuItem>
                 </Menu>
             </MUICard>
         </section>
