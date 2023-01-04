@@ -2,6 +2,7 @@
 
 #content {
     height: 100vh;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,8 +23,9 @@ body {
 .header {
     padding: 5px;
     padding-bottom: 0;
-    height: 30%;
+    max-height: 80px;
     display: grid;
+    column-gap: 10px;
     grid-template-columns: 100px 2fr 1fr 1fr;
     background-color: white;
 }

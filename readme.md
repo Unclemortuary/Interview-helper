@@ -35,6 +35,7 @@ After you can pick a question and save the state of completeness of this questio
 ## Ideas to implement/consider
 - Quiz mode - get number of random questions and ensure your knowledge
 - random button - add random button at the end of questions grid view
+- questions number - add number of ongoing (or total) questions next to each topic name
 
 ## Material UI components that I will need
 - [Tabs](https://mui.com/material-ui/react-tabs/) for displaying topics navigation

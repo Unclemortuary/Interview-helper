@@ -1,5 +1,12 @@
-.navigation {
-    ul {
-        list-style: none;
+.header {
+    .MuiTabs-root {
+        min-height: 0px;
+        height: 100%;
+    
+        .MuiTabs-scroller {
+            .MuiTabs-flexContainer {
+                height: 100%;
+            }
+        }
     }
 }

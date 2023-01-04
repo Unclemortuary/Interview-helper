@@ -11,7 +11,7 @@ const Header = () => (
             <h1 className="text-thin-italic">FE (logo)</h1>
             <>
                 <Navigation items={['HTTP','CSS','JavaScript','React.JS']}></Navigation>
-                <TargetDate></TargetDate>
+                {/* <TargetDate></TargetDate> */}
                 <Progress progress={{ total: 6, done: 2 }}></Progress>
             </>
         </div>

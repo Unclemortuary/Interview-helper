@@ -12,7 +12,8 @@ const Navigation = ({ items }) => {
         <Tabs
             value={activeTab}
             onChange={onSetActiveTab}
-            variant='scrollable'>
+            variant='scrollable'
+            >
             {
                 items.map(el => <Tab key={el} label={el}/>)
             }
